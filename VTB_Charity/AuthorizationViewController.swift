@@ -50,7 +50,7 @@ class AuthorizationViewController: UIViewController {
            
             save(name: name, lastName: lastName, middleName: middleName, password: password)
            
-            performSegue(withIdentifier: "homework", sender: self)
+            performSegue(withIdentifier: "registration", sender: self)
         }
         
         catch {

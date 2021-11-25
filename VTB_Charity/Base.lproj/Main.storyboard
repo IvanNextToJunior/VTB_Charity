@@ -87,11 +87,12 @@
                         <outlet property="middleNameTextField" destination="oKy-zT-0dK" id="rsn-o1-FHq"/>
                         <outlet property="nameTextField" destination="t9x-da-6Gj" id="WKU-Wx-faJ"/>
                         <outlet property="passwordTextField" destination="fOt-J9-cvI" id="Cp2-44-MdK"/>
+                        <segue destination="X0E-rS-unv" kind="show" identifier="registration" id="w94-gS-kNb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="771.42857142857144"/>
+            <point key="canvasLocation" x="783" y="80"/>
         </scene>
         <!--Личный кабинет-->
         <scene sceneID="jdN-X0-hlj">
@@ -118,7 +119,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S4G-Gc-FDK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1187" y="80"/>
+            <point key="canvasLocation" x="1428" y="105"/>
         </scene>
         <!--Главное меню-->
         <scene sceneID="h8r-zp-3Qz">
@@ -129,7 +130,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vKK-sN-Pcm">
-                                <rect key="frame" x="0.0" y="44" width="414" height="109"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="109"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="109" id="30Q-2x-fwP"/>
                                 </constraints>
@@ -141,7 +142,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nCE-uq-bnR">
-                                <rect key="frame" x="0.0" y="153" width="414" height="722.5"/>
+                                <rect key="frame" x="0.0" y="197" width="414" height="678.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
