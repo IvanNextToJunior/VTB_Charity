@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C19253E274FD56B009FBEA8 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19253D274FD56B009FBEA8 /* Preferences.swift */; };
 		2CAEDFC62748EB5300F7DA48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAEDFC52748EB5300F7DA48 /* AppDelegate.swift */; };
 		2CAEDFC82748EB5300F7DA48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAEDFC72748EB5300F7DA48 /* SceneDelegate.swift */; };
 		2CAEDFCA2748EB5300F7DA48 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAEDFC92748EB5300F7DA48 /* AuthorizationViewController.swift */; };
@@ -15,12 +16,20 @@
 		2CAEDFD22748EB6400F7DA48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CAEDFD02748EB6400F7DA48 /* LaunchScreen.storyboard */; };
 		2CAEDFDC2748EEF600F7DA48 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAEDFDB2748EEF600F7DA48 /* PersonViewController.swift */; };
 		2CAEDFDF2748F8A500F7DA48 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAEDFDE2748F8A500F7DA48 /* MenuViewController.swift */; };
+		2CCC3366274FE328005A0711 /* BaseValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC3365274FE328005A0711 /* BaseValidator.swift */; };
+		2CCC3369274FE3A2005A0711 /* ErrorValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC3368274FE3A2005A0711 /* ErrorValidation.swift */; };
+		2CCC336C274FE441005A0711 /* TextField_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC336B274FE441005A0711 /* TextField_Extension.swift */; };
+		2CCC3370274FE7CD005A0711 /* TextLengthValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC336F274FE7CD005A0711 /* TextLengthValidator.swift */; };
+		2CCC3373274FE827005A0711 /* RegularExpressionValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC3372274FE827005A0711 /* RegularExpressionValidator.swift */; };
+		2CCC3376274FEA80005A0711 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC3375274FEA80005A0711 /* UserData.swift */; };
 		2CD48685274C01F500DD7E2E /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD48683274C01F500DD7E2E /* MenuTableViewCell.swift */; };
 		2CD48686274C01F500DD7E2E /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CD48684274C01F500DD7E2E /* MenuTableViewCell.xib */; };
 		2CD48689274C02F400DD7E2E /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD48688274C02F400DD7E2E /* Menu.swift */; };
+		3CCA123C35ADE859BE841D73 /* Pods_VTB_Charity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5E09BDD66D86C1F4E0DC19 /* Pods_VTB_Charity.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C19253D274FD56B009FBEA8 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 		2CAEDFC22748EB5300F7DA48 /* VTB_Charity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VTB_Charity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CAEDFC52748EB5300F7DA48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CAEDFC72748EB5300F7DA48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,9 +40,18 @@
 		2CAEDFD32748EB6400F7DA48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CAEDFDB2748EEF600F7DA48 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
 		2CAEDFDE2748F8A500F7DA48 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		2CCC3365274FE328005A0711 /* BaseValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseValidator.swift; sourceTree = "<group>"; };
+		2CCC3368274FE3A2005A0711 /* ErrorValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorValidation.swift; sourceTree = "<group>"; };
+		2CCC336B274FE441005A0711 /* TextField_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_Extension.swift; sourceTree = "<group>"; };
+		2CCC336F274FE7CD005A0711 /* TextLengthValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLengthValidator.swift; sourceTree = "<group>"; };
+		2CCC3372274FE827005A0711 /* RegularExpressionValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularExpressionValidator.swift; sourceTree = "<group>"; };
+		2CCC3375274FEA80005A0711 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		2CD48683274C01F500DD7E2E /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 		2CD48684274C01F500DD7E2E /* MenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
 		2CD48688274C02F400DD7E2E /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		604E5AB22754D263702C450A /* Pods-VTB_Charity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VTB_Charity.debug.xcconfig"; path = "Target Support Files/Pods-VTB_Charity/Pods-VTB_Charity.debug.xcconfig"; sourceTree = "<group>"; };
+		AB5E09BDD66D86C1F4E0DC19 /* Pods_VTB_Charity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VTB_Charity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F547EA89783CB7E6913A2CC4 /* Pods-VTB_Charity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VTB_Charity.release.xcconfig"; path = "Target Support Files/Pods-VTB_Charity/Pods-VTB_Charity.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CCA123C35ADE859BE841D73 /* Pods_VTB_Charity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +70,9 @@
 			isa = PBXGroup;
 			children = (
 				2CAEDFC92748EB5300F7DA48 /* AuthorizationViewController.swift */,
+				2CCC3368274FE3A2005A0711 /* ErrorValidation.swift */,
+				2CCC3365274FE328005A0711 /* BaseValidator.swift */,
+				2C19253D274FD56B009FBEA8 /* Preferences.swift */,
 			);
 			name = Registration;
 			sourceTree = "<group>";
@@ -60,6 +82,8 @@
 			children = (
 				2CAEDFC42748EB5300F7DA48 /* VTB_Charity */,
 				2CAEDFC32748EB5300F7DA48 /* Products */,
+				F28CD5AADD1EABB33E835AAA /* Pods */,
+				7A61C0968CB3E15740AB5DA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,18 +100,47 @@
 			children = (
 				2CAEDFC52748EB5300F7DA48 /* AppDelegate.swift */,
 				2CAEDFC72748EB5300F7DA48 /* SceneDelegate.swift */,
+				2CCC336F274FE7CD005A0711 /* TextLengthValidator.swift */,
+				2CCC3372274FE827005A0711 /* RegularExpressionValidator.swift */,
+				2CCC3375274FEA80005A0711 /* UserData.swift */,
 				2C19253C274FB907009FBEA8 /* Registration */,
 				2CAEDFDB2748EEF600F7DA48 /* PersonViewController.swift */,
 				2CAEDFDE2748F8A500F7DA48 /* MenuViewController.swift */,
-				2CAEDFCB2748EB5300F7DA48 /* Main.storyboard */,
 				2CD48683274C01F500DD7E2E /* MenuTableViewCell.swift */,
 				2CD48684274C01F500DD7E2E /* MenuTableViewCell.xib */,
 				2CD48688274C02F400DD7E2E /* Menu.swift */,
+				2CCC336E274FE644005A0711 /* Support Files */,
+			);
+			path = VTB_Charity;
+			sourceTree = "<group>";
+		};
+		2CCC336E274FE644005A0711 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CAEDFCB2748EB5300F7DA48 /* Main.storyboard */,
 				2CAEDFCE2748EB6400F7DA48 /* Assets.xcassets */,
 				2CAEDFD02748EB6400F7DA48 /* LaunchScreen.storyboard */,
 				2CAEDFD32748EB6400F7DA48 /* Info.plist */,
+				2CCC336B274FE441005A0711 /* TextField_Extension.swift */,
 			);
-			path = VTB_Charity;
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		7A61C0968CB3E15740AB5DA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB5E09BDD66D86C1F4E0DC19 /* Pods_VTB_Charity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F28CD5AADD1EABB33E835AAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				604E5AB22754D263702C450A /* Pods-VTB_Charity.debug.xcconfig */,
+				F547EA89783CB7E6913A2CC4 /* Pods-VTB_Charity.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CAEDFD62748EB6400F7DA48 /* Build configuration list for PBXNativeTarget "VTB_Charity" */;
 			buildPhases = (
+				DF45F0AC78FBD56B13B97801 /* [CP] Check Pods Manifest.lock */,
 				2CAEDFBE2748EB5300F7DA48 /* Sources */,
 				2CAEDFBF2748EB5300F7DA48 /* Frameworks */,
 				2CAEDFC02748EB5300F7DA48 /* Resources */,
+				96A0AF35B3A6DF6C53CB5E8A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,17 +211,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		96A0AF35B3A6DF6C53CB5E8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VTB_Charity/Pods-VTB_Charity-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VTB_Charity/Pods-VTB_Charity-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VTB_Charity/Pods-VTB_Charity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF45F0AC78FBD56B13B97801 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VTB_Charity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2CAEDFBE2748EB5300F7DA48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2CAEDFCA2748EB5300F7DA48 /* AuthorizationViewController.swift in Sources */,
+				2CCC336C274FE441005A0711 /* TextField_Extension.swift in Sources */,
+				2CCC3376274FEA80005A0711 /* UserData.swift in Sources */,
 				2CAEDFDF2748F8A500F7DA48 /* MenuViewController.swift in Sources */,
 				2CD48689274C02F400DD7E2E /* Menu.swift in Sources */,
 				2CD48685274C01F500DD7E2E /* MenuTableViewCell.swift in Sources */,
 				2CAEDFC62748EB5300F7DA48 /* AppDelegate.swift in Sources */,
+				2CCC3369274FE3A2005A0711 /* ErrorValidation.swift in Sources */,
 				2CAEDFC82748EB5300F7DA48 /* SceneDelegate.swift in Sources */,
+				2CCC3366274FE328005A0711 /* BaseValidator.swift in Sources */,
+				2CCC3370274FE7CD005A0711 /* TextLengthValidator.swift in Sources */,
+				2C19253E274FD56B009FBEA8 /* Preferences.swift in Sources */,
+				2CCC3373274FE827005A0711 /* RegularExpressionValidator.swift in Sources */,
 				2CAEDFDC2748EEF600F7DA48 /* PersonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +415,7 @@
 		};
 		2CAEDFD72748EB6400F7DA48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 604E5AB22754D263702C450A /* Pods-VTB_Charity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -330,6 +435,7 @@
 		};
 		2CAEDFD82748EB6400F7DA48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F547EA89783CB7E6913A2CC4 /* Pods-VTB_Charity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
