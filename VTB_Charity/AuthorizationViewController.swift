@@ -72,10 +72,13 @@ extension AuthorizationViewController: UITextFieldDelegate {
         switch textField {
         
         case nameTextField:
-          lastNameTextField.becomeFirstResponder()
+            middleNameTextField.becomeFirstResponder()
+            
+        case middleNameTextField:
+            lastNameTextField.becomeFirstResponder()
             
         case lastNameTextField:
-          passwordTextField.becomeFirstResponder()
+            passwordTextField.becomeFirstResponder()
             
         case passwordTextField:
             textField.resignFirstResponder()
