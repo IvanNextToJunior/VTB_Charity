@@ -11,6 +11,10 @@ class AuthorizationViewController: UIViewController {
 
     @IBOutlet weak var nameTextField: UITextField!
     
+    @IBOutlet weak var lastNameTextField: UITextField!
+    
+    @IBOutlet weak var middleNameTextField: UITextField!
+    
     @IBOutlet weak var passwordTextField: UITextField!
     
     override func viewDidLoad() {

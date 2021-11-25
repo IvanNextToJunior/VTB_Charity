@@ -80,6 +80,9 @@
                     </view>
                     <navigationItem key="navigationItem" title="Регистрация" id="on6-zD-9Qd"/>
                     <connections>
+                        <outlet property="lastNameTextField" destination="cJ9-Yw-fGP" id="R2z-gp-aXh"/>
+                        <outlet property="middleNameTextField" destination="eEM-SD-SuF" id="BeI-R3-gx3"/>
+                        <outlet property="nameTextField" destination="t9x-da-6Gj" id="WKU-Wx-faJ"/>
                         <outlet property="passwordTextField" destination="fOt-J9-cvI" id="Cp2-44-MdK"/>
                     </connections>
                 </viewController>
