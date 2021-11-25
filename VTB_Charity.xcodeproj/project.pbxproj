@@ -47,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C19253C274FB907009FBEA8 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				2CAEDFC92748EB5300F7DA48 /* AuthorizationViewController.swift */,
+			);
+			name = Registration;
+			sourceTree = "<group>";
+		};
 		2CAEDFB92748EB5300F7DA48 = {
 			isa = PBXGroup;
 			children = (
@@ -68,7 +76,7 @@
 			children = (
 				2CAEDFC52748EB5300F7DA48 /* AppDelegate.swift */,
 				2CAEDFC72748EB5300F7DA48 /* SceneDelegate.swift */,
-				2CAEDFC92748EB5300F7DA48 /* AuthorizationViewController.swift */,
+				2C19253C274FB907009FBEA8 /* Registration */,
 				2CAEDFDB2748EEF600F7DA48 /* PersonViewController.swift */,
 				2CAEDFDE2748F8A500F7DA48 /* MenuViewController.swift */,
 				2CAEDFCB2748EB5300F7DA48 /* Main.storyboard */,
