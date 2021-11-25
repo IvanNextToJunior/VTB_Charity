@@ -35,6 +35,9 @@
                                 <rect key="frame" x="133" y="477" width="149" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Зарегистрироваться"/>
+                                <connections>
+                                    <action selector="signUPButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cJR-nk-Opf"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t9x-da-6Gj">
                                 <rect key="frame" x="0.0" y="201" width="414" height="34"/>

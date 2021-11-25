@@ -17,6 +17,13 @@ class AuthorizationViewController: UIViewController {
     
     @IBOutlet weak var passwordTextField: UITextField!
     
+    @IBAction func signUPButton(_ sender: UIButton) {
+   validate()
+    }
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setup()
