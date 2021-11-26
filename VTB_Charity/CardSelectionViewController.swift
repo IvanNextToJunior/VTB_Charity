@@ -9,6 +9,11 @@ import UIKit
 
 class CardSelectionViewController: UIViewController {
 
+    
+    @IBOutlet weak var selectCardCollectionView: UICollectionView!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
