@@ -203,7 +203,7 @@
             </objects>
             <point key="canvasLocation" x="1505.7971014492755" y="79.6875"/>
         </scene>
-        <!--ВЫберите карту-->
+        <!--Выберите карту-->
         <scene sceneID="hux-4M-LwE">
             <objects>
                 <viewController id="Ru5-SN-gwc" customClass="CardSelectionViewController" customModule="VTB_Charity" customModuleProvider="target" sceneMemberID="viewController">
@@ -232,7 +232,7 @@
                             <constraint firstItem="zlA-IP-BKe" firstAttribute="leading" secondItem="2Vi-RT-fZE" secondAttribute="leading" id="h8Q-Y7-vqV"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="ВЫберите карту" id="VyA-Kk-PaG"/>
+                    <navigationItem key="navigationItem" title="Выберите карту" id="VyA-Kk-PaG"/>
                     <connections>
                         <outlet property="selectCardCollectionView" destination="zlA-IP-BKe" id="5NF-zp-6pZ"/>
                     </connections>
