@@ -31,6 +31,10 @@ class AuthorizationViewController: UIViewController {
         nameTextField.delegate = self
         middleNameTextField.delegate = self
         lastNameTextField.delegate = self
+        
+        passwordTextField.delegate = self
+        passwordTextField.isSecureTextEntry = true
+    
     }
     private func validate () {
         

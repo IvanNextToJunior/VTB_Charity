@@ -121,7 +121,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="nRy-gC-TPe">
-                                <rect key="frame" x="97" y="354" width="221" height="227"/>
+                                <rect key="frame" x="97" y="335" width="221" height="227"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="xNd-Ql-e0b">
                                         <rect key="frame" x="0.0" y="0.0" width="221" height="32"/>
