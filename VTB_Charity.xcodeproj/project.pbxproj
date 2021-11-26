@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2C19253E274FD56B009FBEA8 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19253D274FD56B009FBEA8 /* Preferences.swift */; };
+		2C5DA0D82750F6BD00653DDE /* CardSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5DA0D72750F6BD00653DDE /* CardSelectionViewController.swift */; };
 		2CAEDFC62748EB5300F7DA48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAEDFC52748EB5300F7DA48 /* AppDelegate.swift */; };
 		2CAEDFC82748EB5300F7DA48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAEDFC72748EB5300F7DA48 /* SceneDelegate.swift */; };
 		2CAEDFCA2748EB5300F7DA48 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAEDFC92748EB5300F7DA48 /* AuthorizationViewController.swift */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		2C19253D274FD56B009FBEA8 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		2C5DA0D72750F6BD00653DDE /* CardSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionViewController.swift; sourceTree = "<group>"; };
 		2CAEDFC22748EB5300F7DA48 /* VTB_Charity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VTB_Charity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CAEDFC52748EB5300F7DA48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CAEDFC72748EB5300F7DA48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				2C19253C274FB907009FBEA8 /* Registration */,
 				2CAEDFDB2748EEF600F7DA48 /* PersonViewController.swift */,
 				2CAEDFDE2748F8A500F7DA48 /* MenuViewController.swift */,
+				2C5DA0D72750F6BD00653DDE /* CardSelectionViewController.swift */,
 				2CCC336E274FE644005A0711 /* Support Files */,
 			);
 			path = VTB_Charity;
@@ -268,6 +271,7 @@
 				2C19253E274FD56B009FBEA8 /* Preferences.swift in Sources */,
 				2CCC3373274FE827005A0711 /* RegularExpressionValidator.swift in Sources */,
 				2CAEDFDC2748EEF600F7DA48 /* PersonViewController.swift in Sources */,
+				2C5DA0D82750F6BD00653DDE /* CardSelectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
