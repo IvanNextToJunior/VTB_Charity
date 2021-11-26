@@ -8,7 +8,7 @@
 import UIKit
 
 class AuthorizationViewController: UIViewController {
-
+    
     @IBOutlet weak var nameTextField: UITextField!
     
     @IBOutlet weak var lastNameTextField: UITextField!
@@ -18,21 +18,22 @@ class AuthorizationViewController: UIViewController {
     @IBOutlet weak var passwordTextField: UITextField!
     
     @IBAction func signUPButton(_ sender: UIButton) {
-   validate()
+        validate()
     }
-
-   
+    
+    
     @IBAction func showPassword(_ sender: UIButton) {
-      
+        
         if sender.isSelected {
             passwordTextField.isSecureTextEntry = true
         }
+        
         else {
             passwordTextField.isSecureTextEntry = false
         }
+        
         sender.isSelected.toggle()
     }
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,7 +47,7 @@ class AuthorizationViewController: UIViewController {
         lastNameTextField.delegate = self
         passwordTextField.delegate = self
         passwordTextField.isSecureTextEntry = true
-    
+        
     }
     private func validate () {
         
@@ -56,34 +57,34 @@ class AuthorizationViewController: UIViewController {
             let middleName = try middleNameTextField.validateText(validators: [TextLengthValidator(minTextLength: 5, message: "В отчестве должно быть не менее 5 символов"), RegularExpressionValidator(pattern: "^[a-zA-Zа-яА-Я]+$", message: "Отчество содержит недопустимые симоволы")])
             
             let lastName = try lastNameTextField.validateText(validators: [TextLengthValidator(minTextLength: 3, message: "В фамилии должно быть не менее 3 символов"), RegularExpressionValidator(pattern: "^[a-zA-Zа-яА-Я]+$", message: "Фамилия содержит недопустимые симоволы")])
-
+            
             let password = try passwordTextField.validateText(validators: [TextLengthValidator(minTextLength: 4, message: "Пароль должен содержать не менее 4 символов и не более 10 символов"), RegularExpressionValidator(pattern: "^[A-Z0-9a-z._%+-]+[A-Za-z0-9.-]{4,10}$", message: "Пароль содержит недопустимые симоволы")])
             
-           
+            
             save(name: name, lastName: lastName, middleName: middleName, password: password)
-           
+            
             performSegue(withIdentifier: "registration", sender: self)
         }
         
         catch {
             let e = error
-         
+            
             debugPrint(e)
             let alert = UIAlertController(title: "Ошибка валидации", message: (error as! ValidationError).message, preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "Продолжить", style: .default, handler:nil))
             present(alert, animated: true, completion: nil)
         }
-}
-
+    }
+    
     private func save (name: String, lastName: String, middleName: String, password: String) {
-      
+        
         let userData = UserData()
-      
+        
         userData.getUser(name: name, lastName: lastName, middleName: middleName)
-       
+        
         Preferences.password = password
     }
-
+    
 }
 extension AuthorizationViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
@@ -106,7 +107,6 @@ extension AuthorizationViewController: UITextFieldDelegate {
             break
             
         }
-        
         return true
         
     }
