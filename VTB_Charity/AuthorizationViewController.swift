@@ -25,10 +25,10 @@ class AuthorizationViewController: UIViewController {
     @IBAction func showPassword(_ sender: UIButton) {
       
         if sender.isSelected {
-            passwordTextField.isSecureTextEntry = false
+            passwordTextField.isSecureTextEntry = true
         }
         else {
-            passwordTextField.isSecureTextEntry = true
+            passwordTextField.isSecureTextEntry = false
         }
         sender.isSelected.toggle()
     }
