@@ -42,7 +42,7 @@ class AuthorizationViewController: UIViewController {
             
             let lastName = try lastNameTextField.validateText(validators: [TextLengthValidator(minTextLength: 3, message: "В фамилии должно быть не менее 3 символов"), RegularExpressionValidator(pattern: "^[a-zA-Zа-яА-Я]+$", message: "Фамилия содержит недопустимые симоволы")])
             
-            let password = try passwordTextField.validateText(validators: [TextLengthValidator(minTextLength: 4, message: "Пароль должен содержать не менее 4 символов и не больше 10 символов"), RegularExpressionValidator(pattern: "^[A-Z0-9a-z._%+-]+[A-Za-z0-9.-]{4,10}$", message: "Пароль содержит недопустимые симоволы")])
+            let password = try passwordTextField.validateText(validators: [TextLengthValidator(minTextLength: 4, message: "Пароль должен содержать не менее 4 и не более 10 символов"), RegularExpressionValidator(pattern: "^[A-Z0-9a-z._%+-]+[A-Za-z0-9.-]{4,10}$", message: "Пароль содержит недопустимые симоволы")])
             
            
             save(name: name, lastName: lastName, middleName: middleName, password: password)
