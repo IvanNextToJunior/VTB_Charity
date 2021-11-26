@@ -3,7 +3,6 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
-        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -105,21 +104,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Личный кабинет" id="seA-Jr-a2D">
-                        <barButtonItem key="leftBarButtonItem" id="myI-kE-Ml9">
-                            <imageReference key="image" image="list.dash" catalog="system" symbolScale="large"/>
-                            <inset key="imageInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
-                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" id="epc-Tj-kFJ">
-                            <imageReference key="image" image="person.fill" catalog="system" symbolScale="large" renderingMode="original"/>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Личный кабинет" id="seA-Jr-a2D"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S4G-Gc-FDK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2710" y="102"/>
+            <point key="canvasLocation" x="2345" y="80"/>
         </scene>
         <!--Главное меню-->
         <scene sceneID="h8r-zp-3Qz">
@@ -179,6 +169,9 @@
                                         <state key="normal" title="Личный кабинет">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="Y57-AG-QdT" kind="show" id="zdn-xG-DXe"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -212,8 +205,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="list.dash" catalog="system" width="128" height="85"/>
-        <image name="person.fill" catalog="system" width="128" height="120"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
