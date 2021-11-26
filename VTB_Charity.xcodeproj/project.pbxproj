@@ -70,11 +70,21 @@
 			isa = PBXGroup;
 			children = (
 				2CAEDFC92748EB5300F7DA48 /* AuthorizationViewController.swift */,
-				2CCC3368274FE3A2005A0711 /* ErrorValidation.swift */,
-				2CCC3365274FE328005A0711 /* BaseValidator.swift */,
 				2C19253D274FD56B009FBEA8 /* Preferences.swift */,
 			);
 			name = Registration;
+			sourceTree = "<group>";
+		};
+		2C5DA0D32750DAA800653DDE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2CCC336F274FE7CD005A0711 /* TextLengthValidator.swift */,
+				2CCC3372274FE827005A0711 /* RegularExpressionValidator.swift */,
+				2CCC3368274FE3A2005A0711 /* ErrorValidation.swift */,
+				2CCC3365274FE328005A0711 /* BaseValidator.swift */,
+				2CCC3375274FEA80005A0711 /* UserData.swift */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 		2CAEDFB92748EB5300F7DA48 = {
@@ -98,11 +108,7 @@
 		2CAEDFC42748EB5300F7DA48 /* VTB_Charity */ = {
 			isa = PBXGroup;
 			children = (
-				2CAEDFC52748EB5300F7DA48 /* AppDelegate.swift */,
-				2CAEDFC72748EB5300F7DA48 /* SceneDelegate.swift */,
-				2CCC336F274FE7CD005A0711 /* TextLengthValidator.swift */,
-				2CCC3372274FE827005A0711 /* RegularExpressionValidator.swift */,
-				2CCC3375274FEA80005A0711 /* UserData.swift */,
+				2C5DA0D32750DAA800653DDE /* Utils */,
 				2C19253C274FB907009FBEA8 /* Registration */,
 				2CAEDFDB2748EEF600F7DA48 /* PersonViewController.swift */,
 				2CAEDFDE2748F8A500F7DA48 /* MenuViewController.swift */,
@@ -122,6 +128,8 @@
 				2CAEDFD02748EB6400F7DA48 /* LaunchScreen.storyboard */,
 				2CAEDFD32748EB6400F7DA48 /* Info.plist */,
 				2CCC336B274FE441005A0711 /* TextField_Extension.swift */,
+				2CAEDFC52748EB5300F7DA48 /* AppDelegate.swift */,
+				2CAEDFC72748EB5300F7DA48 /* SceneDelegate.swift */,
 			);
 			name = "Support Files";
 			sourceTree = "<group>";
