@@ -22,9 +22,6 @@
 		2CCC3370274FE7CD005A0711 /* TextLengthValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC336F274FE7CD005A0711 /* TextLengthValidator.swift */; };
 		2CCC3373274FE827005A0711 /* RegularExpressionValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC3372274FE827005A0711 /* RegularExpressionValidator.swift */; };
 		2CCC3376274FEA80005A0711 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC3375274FEA80005A0711 /* UserData.swift */; };
-		2CD48685274C01F500DD7E2E /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD48683274C01F500DD7E2E /* MenuTableViewCell.swift */; };
-		2CD48686274C01F500DD7E2E /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CD48684274C01F500DD7E2E /* MenuTableViewCell.xib */; };
-		2CD48689274C02F400DD7E2E /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD48688274C02F400DD7E2E /* Menu.swift */; };
 		3CCA123C35ADE859BE841D73 /* Pods_VTB_Charity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5E09BDD66D86C1F4E0DC19 /* Pods_VTB_Charity.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,9 +43,6 @@
 		2CCC336F274FE7CD005A0711 /* TextLengthValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLengthValidator.swift; sourceTree = "<group>"; };
 		2CCC3372274FE827005A0711 /* RegularExpressionValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularExpressionValidator.swift; sourceTree = "<group>"; };
 		2CCC3375274FEA80005A0711 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
-		2CD48683274C01F500DD7E2E /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
-		2CD48684274C01F500DD7E2E /* MenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
-		2CD48688274C02F400DD7E2E /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		604E5AB22754D263702C450A /* Pods-VTB_Charity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VTB_Charity.debug.xcconfig"; path = "Target Support Files/Pods-VTB_Charity/Pods-VTB_Charity.debug.xcconfig"; sourceTree = "<group>"; };
 		AB5E09BDD66D86C1F4E0DC19 /* Pods_VTB_Charity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VTB_Charity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F547EA89783CB7E6913A2CC4 /* Pods-VTB_Charity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VTB_Charity.release.xcconfig"; path = "Target Support Files/Pods-VTB_Charity/Pods-VTB_Charity.release.xcconfig"; sourceTree = "<group>"; };
@@ -112,9 +106,6 @@
 				2C19253C274FB907009FBEA8 /* Registration */,
 				2CAEDFDB2748EEF600F7DA48 /* PersonViewController.swift */,
 				2CAEDFDE2748F8A500F7DA48 /* MenuViewController.swift */,
-				2CD48683274C01F500DD7E2E /* MenuTableViewCell.swift */,
-				2CD48684274C01F500DD7E2E /* MenuTableViewCell.xib */,
-				2CD48688274C02F400DD7E2E /* Menu.swift */,
 				2CCC336E274FE644005A0711 /* Support Files */,
 			);
 			path = VTB_Charity;
@@ -212,7 +203,6 @@
 			files = (
 				2CAEDFD22748EB6400F7DA48 /* LaunchScreen.storyboard in Resources */,
 				2CAEDFCF2748EB6400F7DA48 /* Assets.xcassets in Resources */,
-				2CD48686274C01F500DD7E2E /* MenuTableViewCell.xib in Resources */,
 				2CAEDFCD2748EB5300F7DA48 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,8 +260,6 @@
 				2CCC336C274FE441005A0711 /* TextField_Extension.swift in Sources */,
 				2CCC3376274FEA80005A0711 /* UserData.swift in Sources */,
 				2CAEDFDF2748F8A500F7DA48 /* MenuViewController.swift in Sources */,
-				2CD48689274C02F400DD7E2E /* Menu.swift in Sources */,
-				2CD48685274C01F500DD7E2E /* MenuTableViewCell.swift in Sources */,
 				2CAEDFC62748EB5300F7DA48 /* AppDelegate.swift in Sources */,
 				2CCC3369274FE3A2005A0711 /* ErrorValidation.swift in Sources */,
 				2CAEDFC82748EB5300F7DA48 /* SceneDelegate.swift in Sources */,
