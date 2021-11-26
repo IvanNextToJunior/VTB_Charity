@@ -20,10 +20,7 @@ class AuthorizationViewController: UIViewController {
     @IBAction func signUPButton(_ sender: UIButton) {
    validate()
     }
-    
-    
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         setup()
@@ -45,7 +42,7 @@ class AuthorizationViewController: UIViewController {
             
             let middleName = try middleNameTextField.validateText(validators: [TextLengthValidator(minTextLength: 5, message: "В отчестве должно быть не менее 5 символов"), RegularExpressionValidator(pattern: "^[a-zA-Zа-яА-Я]+$", message: "Отчество содержит недопустимые симоволы")])
             
-            let password = try passwordTextField.validateText(validators: [TextLengthValidator(minTextLength: 4, message: "Пароль должен содержать не менее 4 символов и не больше 10 символов"), RegularExpressionValidator(pattern: "^[A-Z0-9a-z._%+-]+[A-Za-z0-9.-]+\\.[A-Za-z]{4,10}$", message: "Пароль содержит недопустимые симоволы")])
+            let password = try passwordTextField.validateText(validators: [TextLengthValidator(minTextLength: 4, message: "Пароль должен содержать не менее 4 символов и не больше 10 символов"), RegularExpressionValidator(pattern: "^[A-Z0-9a-z._%+-]+[A-Za-z0-9.-]{4,10}$", message: "Пароль содержит недопустимые симоволы")])
             
            
             save(name: name, lastName: lastName, middleName: middleName, password: password)
