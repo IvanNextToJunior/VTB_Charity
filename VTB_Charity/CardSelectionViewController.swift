@@ -16,12 +16,23 @@ class CardSelectionViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+setup()
     }
     
     private func setup() {
-        selectCardCollectionView.register(<#T##nib: UINib?##UINib?#>, forCellWithReuseIdentifier: <#T##String#>)
+        selectCardCollectionView.register(nib, forCellWithReuseIdentifier: identifier)
+        selectCardCollectionView.dataSource = self
     }
   
-
+}
+extension CardSelectionViewController: UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        <#code#>
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        <#code#>
+    }
+    
+    
 }

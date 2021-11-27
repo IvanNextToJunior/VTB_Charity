@@ -11,6 +11,7 @@
 		2C5DA0D82750F6BD00653DDE /* CardSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5DA0D72750F6BD00653DDE /* CardSelectionViewController.swift */; };
 		2C5DA0DC2750F81F00653DDE /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5DA0DA2750F81F00653DDE /* CardCollectionViewCell.swift */; };
 		2C5DA0DD2750F81F00653DDE /* CardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C5DA0DB2750F81F00653DDE /* CardCollectionViewCell.xib */; };
+		2C5DA0E32752AD8E00653DDE /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5DA0E22752AD8E00653DDE /* Card.swift */; };
 		2CAEDFC62748EB5300F7DA48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAEDFC52748EB5300F7DA48 /* AppDelegate.swift */; };
 		2CAEDFCA2748EB5300F7DA48 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAEDFC92748EB5300F7DA48 /* AuthorizationViewController.swift */; };
 		2CAEDFCD2748EB5300F7DA48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CAEDFCB2748EB5300F7DA48 /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 		2C5DA0D72750F6BD00653DDE /* CardSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionViewController.swift; sourceTree = "<group>"; };
 		2C5DA0DA2750F81F00653DDE /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 		2C5DA0DB2750F81F00653DDE /* CardCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCollectionViewCell.xib; sourceTree = "<group>"; };
+		2C5DA0E22752AD8E00653DDE /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		2CAEDFC22748EB5300F7DA48 /* VTB_Charity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VTB_Charity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CAEDFC52748EB5300F7DA48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CAEDFC92748EB5300F7DA48 /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +87,25 @@
 			name = Utils;
 			sourceTree = "<group>";
 		};
+		2C5DA0E02752AD3600653DDE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CAEDFDB2748EEF600F7DA48 /* PersonViewController.swift */,
+				2CAEDFDE2748F8A500F7DA48 /* MenuViewController.swift */,
+				2C5DA0D72750F6BD00653DDE /* CardSelectionViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2C5DA0E12752AD5D00653DDE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C5DA0DA2750F81F00653DDE /* CardCollectionViewCell.swift */,
+				2C5DA0DB2750F81F00653DDE /* CardCollectionViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		2CAEDFB92748EB5300F7DA48 = {
 			isa = PBXGroup;
 			children = (
@@ -108,12 +129,10 @@
 			children = (
 				2C5DA0D32750DAA800653DDE /* Utils */,
 				2C19253C274FB907009FBEA8 /* Registration */,
-				2CAEDFDB2748EEF600F7DA48 /* PersonViewController.swift */,
-				2CAEDFDE2748F8A500F7DA48 /* MenuViewController.swift */,
-				2C5DA0D72750F6BD00653DDE /* CardSelectionViewController.swift */,
-				2C5DA0DA2750F81F00653DDE /* CardCollectionViewCell.swift */,
-				2C5DA0DB2750F81F00653DDE /* CardCollectionViewCell.xib */,
+				2C5DA0E02752AD3600653DDE /* Controllers */,
+				2C5DA0E12752AD5D00653DDE /* Views */,
 				2CCC336E274FE644005A0711 /* Support Files */,
+				2C5DA0E22752AD8E00653DDE /* Card.swift */,
 			);
 			path = VTB_Charity;
 			sourceTree = "<group>";
@@ -272,6 +291,7 @@
 				2CCC3369274FE3A2005A0711 /* ErrorValidation.swift in Sources */,
 				2CCC3366274FE328005A0711 /* BaseValidator.swift in Sources */,
 				2CCC3370274FE7CD005A0711 /* TextLengthValidator.swift in Sources */,
+				2C5DA0E32752AD8E00653DDE /* Card.swift in Sources */,
 				2C19253E274FD56B009FBEA8 /* Preferences.swift in Sources */,
 				2CCC3373274FE827005A0711 /* RegularExpressionValidator.swift in Sources */,
 				2CAEDFDC2748EEF600F7DA48 /* PersonViewController.swift in Sources */,
