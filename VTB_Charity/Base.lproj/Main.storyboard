@@ -199,6 +199,14 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Главное меню" id="eXW-xX-qXw"/>
+                    <connections>
+                        <outlet property="charityFondButton" destination="7vA-uf-SRS" id="Io7-WL-RSm"/>
+                        <outlet property="moneyInputButton" destination="F1J-pt-szh" id="djN-hS-97r"/>
+                        <outlet property="moneyTransferButton" destination="YrX-Bp-ReO" id="9dA-4u-2Xq"/>
+                        <outlet property="openCardButton" destination="xNd-Ql-e0b" id="lT7-6H-K4H"/>
+                        <outlet property="personalAccountButton" destination="VPr-Hn-PuM" id="IT8-Xb-Cqh"/>
+                        <outlet property="pointsTrackerButton" destination="rni-CA-SfN" id="owW-GI-0f2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mAu-Bc-1W7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
