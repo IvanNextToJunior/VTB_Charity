@@ -12,7 +12,7 @@ class CardSelectionViewController: UIViewController {
     @IBOutlet weak private var selectCardCollectionView: UICollectionView!
     
     private let identifier = "cardCollectionViewReuseIdentifier"
-    private let nib = UINib(nibName: "CardCollectionViewCell", bundle: nil)
+    private let nib = UINib(nibName: "SelectCardCollectionViewCell", bundle: nil)
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CardCollectionViewCell: UICollectionViewCell {
+class SelectCardCollectionViewCell: UICollectionViewCell {
    
     @IBOutlet weak var cardImageView: UIImageView!
     
