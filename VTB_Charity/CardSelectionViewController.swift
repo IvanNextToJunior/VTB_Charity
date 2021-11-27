@@ -13,6 +13,7 @@ class CardSelectionViewController: UIViewController {
     
     private let identifier = "cardCollectionViewReuseIdentifier"
     private let nib = UINib(nibName: "SelectCardCollectionViewCell", bundle: nil)
+    private let cardNames = ["ФЛ", "Зарплатная", "Пенсионная", "Виртуальная"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,11 +28,13 @@ setup()
 }
 extension CardSelectionViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 4
+        return cardNames.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: identifier, for: indexPath) as! SelectCardCollectionViewCell
+       
+        cell.cardNameLabel.text = cardNames[indexPath.row]
         return cell
     }
     
