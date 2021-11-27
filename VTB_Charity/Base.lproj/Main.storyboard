@@ -200,10 +200,10 @@
                     </view>
                     <navigationItem key="navigationItem" title="Главное меню" id="eXW-xX-qXw"/>
                     <connections>
+                        <outlet property="cardButton" destination="xNd-Ql-e0b" id="ouV-h0-5hW"/>
                         <outlet property="charityFondButton" destination="7vA-uf-SRS" id="Io7-WL-RSm"/>
                         <outlet property="moneyInputButton" destination="F1J-pt-szh" id="djN-hS-97r"/>
                         <outlet property="moneyTransferButton" destination="YrX-Bp-ReO" id="9dA-4u-2Xq"/>
-                        <outlet property="openCardButton" destination="xNd-Ql-e0b" id="lT7-6H-K4H"/>
                         <outlet property="personalAccountButton" destination="VPr-Hn-PuM" id="IT8-Xb-Cqh"/>
                         <outlet property="pointsTrackerButton" destination="rni-CA-SfN" id="owW-GI-0f2"/>
                     </connections>
@@ -230,7 +230,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="v3F-4a-aje">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="v3F-4a-aje" customClass="SelectCardCollectionViewCell" customModule="VTB_Charity" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="68h-7y-JSg">
