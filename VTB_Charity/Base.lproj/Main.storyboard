@@ -215,7 +215,7 @@
         <!--Выберите карту-->
         <scene sceneID="hux-4M-LwE">
             <objects>
-                <viewController id="Ru5-SN-gwc" customClass="CardSelectionViewController" customModule="VTB_Charity" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Ru5-SN-gwc" customClass="SelectCardViewController" customModule="VTB_Charity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Nm8-5O-QgT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

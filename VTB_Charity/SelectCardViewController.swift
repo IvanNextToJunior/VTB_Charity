@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CardSelectionViewController: UIViewController {
+class SelectCardViewController: UIViewController {
 
     @IBOutlet weak private var selectCardCollectionView: UICollectionView!
     
@@ -26,7 +26,7 @@ setup()
     }
   
 }
-extension CardSelectionViewController: UICollectionViewDataSource {
+extension SelectCardViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return cardNames.count
     }
