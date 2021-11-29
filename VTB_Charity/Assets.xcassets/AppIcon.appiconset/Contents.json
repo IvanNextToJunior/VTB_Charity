@@ -1,20 +1,8 @@
 {
   "images" : [
     {
-      "filename" : "Group 3.png",
       "idiom" : "iphone",
       "scale" : "2x",
-      "size" : "20x20"
-    },
-    {
-      "idiom" : "iphone",
-      "scale" : "2x",
-      "size" : "20x20"
-    },
-    {
-      "filename" : "Logo 60x60.png",
-      "idiom" : "iphone",
-      "scale" : "3x",
       "size" : "20x20"
     },
     {
