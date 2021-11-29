@@ -25,6 +25,7 @@
 		2CCC3373274FE827005A0711 /* RegularExpressionValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC3372274FE827005A0711 /* RegularExpressionValidator.swift */; };
 		2CCC3376274FEA80005A0711 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC3375274FEA80005A0711 /* UserData.swift */; };
 		3CCA123C35ADE859BE841D73 /* Pods_VTB_Charity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5E09BDD66D86C1F4E0DC19 /* Pods_VTB_Charity.framework */; };
+		911B11E9275537B60089DA52 /* AlignedCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B11E8275537B60089DA52 /* AlignedCollectionViewFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		2CCC3372274FE827005A0711 /* RegularExpressionValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularExpressionValidator.swift; sourceTree = "<group>"; };
 		2CCC3375274FEA80005A0711 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		604E5AB22754D263702C450A /* Pods-VTB_Charity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VTB_Charity.debug.xcconfig"; path = "Target Support Files/Pods-VTB_Charity/Pods-VTB_Charity.debug.xcconfig"; sourceTree = "<group>"; };
+		911B11E8275537B60089DA52 /* AlignedCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignedCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		AB5E09BDD66D86C1F4E0DC19 /* Pods_VTB_Charity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VTB_Charity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F547EA89783CB7E6913A2CC4 /* Pods-VTB_Charity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VTB_Charity.release.xcconfig"; path = "Target Support Files/Pods-VTB_Charity/Pods-VTB_Charity.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,6 +145,7 @@
 				2CAEDFD32748EB6400F7DA48 /* Info.plist */,
 				2CCC336B274FE441005A0711 /* TextField_Extension.swift */,
 				2CAEDFC52748EB5300F7DA48 /* AppDelegate.swift */,
+				911B11E8275537B60089DA52 /* AlignedCollectionViewFlowLayout.swift */,
 			);
 			name = "Support Files";
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				2CCC3376274FEA80005A0711 /* UserData.swift in Sources */,
 				2CAEDFDF2748F8A500F7DA48 /* MenuViewController.swift in Sources */,
 				2C5DA0DC2750F81F00653DDE /* SelectCardCollectionViewCell.swift in Sources */,
+				911B11E9275537B60089DA52 /* AlignedCollectionViewFlowLayout.swift in Sources */,
 				2CAEDFC62748EB5300F7DA48 /* AppDelegate.swift in Sources */,
 				2CCC3369274FE3A2005A0711 /* ErrorValidation.swift in Sources */,
 				2CCC3366274FE328005A0711 /* BaseValidator.swift in Sources */,

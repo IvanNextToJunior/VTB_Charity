@@ -18,6 +18,10 @@ class SelectCardViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 setup()
+        let alignedFlowLayout = selectCardCollectionView?.collectionViewLayout as? AlignedCollectionViewFlowLayout
+        alignedFlowLayout?.horizontalAlignment = .left
+        alignedFlowLayout?.verticalAlignment = .top
+
     }
     
     private func setup() {
