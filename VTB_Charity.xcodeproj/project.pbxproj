@@ -24,6 +24,7 @@
 		2CCC3370274FE7CD005A0711 /* TextLengthValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC336F274FE7CD005A0711 /* TextLengthValidator.swift */; };
 		2CCC3373274FE827005A0711 /* RegularExpressionValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC3372274FE827005A0711 /* RegularExpressionValidator.swift */; };
 		2CCC3376274FEA80005A0711 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC3375274FEA80005A0711 /* UserData.swift */; };
+		2CEB8594275ABD58009D977E /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEB8593275ABD58009D977E /* APIManager.swift */; };
 		3CCA123C35ADE859BE841D73 /* Pods_VTB_Charity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5E09BDD66D86C1F4E0DC19 /* Pods_VTB_Charity.framework */; };
 		911B11E9275537B60089DA52 /* AlignedCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911B11E8275537B60089DA52 /* AlignedCollectionViewFlowLayout.swift */; };
 /* End PBXBuildFile section */
@@ -48,6 +49,7 @@
 		2CCC336F274FE7CD005A0711 /* TextLengthValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLengthValidator.swift; sourceTree = "<group>"; };
 		2CCC3372274FE827005A0711 /* RegularExpressionValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularExpressionValidator.swift; sourceTree = "<group>"; };
 		2CCC3375274FEA80005A0711 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		2CEB8593275ABD58009D977E /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		604E5AB22754D263702C450A /* Pods-VTB_Charity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VTB_Charity.debug.xcconfig"; path = "Target Support Files/Pods-VTB_Charity/Pods-VTB_Charity.debug.xcconfig"; sourceTree = "<group>"; };
 		911B11E8275537B60089DA52 /* AlignedCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignedCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		AB5E09BDD66D86C1F4E0DC19 /* Pods_VTB_Charity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VTB_Charity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +129,7 @@
 		2CAEDFC42748EB5300F7DA48 /* VTB_Charity */ = {
 			isa = PBXGroup;
 			children = (
+				2CEB8596275ABD64009D977E /* Models */,
 				2C5DA0D32750DAA800653DDE /* Utils */,
 				2C19253C274FB907009FBEA8 /* Registration */,
 				2C5DA0E02752AD3600653DDE /* Controllers */,
@@ -148,6 +151,14 @@
 				911B11E8275537B60089DA52 /* AlignedCollectionViewFlowLayout.swift */,
 			);
 			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		2CEB8596275ABD64009D977E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2CEB8593275ABD58009D977E /* APIManager.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		7A61C0968CB3E15740AB5DA2 /* Frameworks */ = {
@@ -294,6 +305,7 @@
 				2CCC3370274FE7CD005A0711 /* TextLengthValidator.swift in Sources */,
 				2C19253E274FD56B009FBEA8 /* Preferences.swift in Sources */,
 				2CCC3373274FE827005A0711 /* RegularExpressionValidator.swift in Sources */,
+				2CEB8594275ABD58009D977E /* APIManager.swift in Sources */,
 				2CAEDFDC2748EEF600F7DA48 /* PersonViewController.swift in Sources */,
 				2C5DA0D82750F6BD00653DDE /* SelectCardViewController.swift in Sources */,
 			);
