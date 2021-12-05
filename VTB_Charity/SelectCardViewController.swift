@@ -53,6 +53,7 @@ extension SelectCardViewController: UICollectionViewDataSource {
             imageName = imageNames[1]
         }
         /* MARK */
+       
         cell.cardImageView.image = UIImage(named: imageName)
         cell.cardNameLabel.text = cardNames[indexPath.row]
         return cell
