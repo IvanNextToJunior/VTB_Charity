@@ -14,6 +14,7 @@ class SelectCardViewController: UIViewController {
     private let identifier = "cardCollectionViewReuseIdentifier"
     private let nib = UINib(nibName: "SelectCardCollectionViewCell", bundle: nil)
     private let cardNames = ["ФЛ", "Зарплатная", "Пенсионная", "Виртуальная"]
+    private let imageNames = ["darkBlue_card", "nature_card"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,7 +38,22 @@ extension SelectCardViewController: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: identifier, for: indexPath) as! SelectCardCollectionViewCell
+        
+        let imageName: String
+        /* MARK: Temporary solution */
+        if indexPath.row <= 1 {
+            imageName = imageNames[indexPath.row]
+        }
        
+        else if indexPath.row % 2 == 0 {
+            imageName = imageNames[0]
+        }
+        
+        else {
+            imageName = imageNames[1]
+        }
+        /* MARK */
+        cell.cardImageView.image = UIImage(named: imageName)
         cell.cardNameLabel.text = cardNames[indexPath.row]
         return cell
     }
