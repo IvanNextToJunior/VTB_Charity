@@ -8,7 +8,7 @@
 import UIKit
 
 class SelectCardViewController: UIViewController {
-
+    
     @IBOutlet weak private var selectCardCollectionView: UICollectionView!
     
     private let identifier = "cardCollectionViewReuseIdentifier"
@@ -18,18 +18,19 @@ class SelectCardViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-setup()
+        setup()
+       
         let alignedFlowLayout = selectCardCollectionView?.collectionViewLayout as? AlignedCollectionViewFlowLayout
         alignedFlowLayout?.horizontalAlignment = .left
         alignedFlowLayout?.verticalAlignment = .top
-
+        
     }
     
     private func setup() {
         selectCardCollectionView.register(nib, forCellWithReuseIdentifier: identifier)
         selectCardCollectionView.dataSource = self
     }
-  
+    
 }
 extension SelectCardViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -44,7 +45,7 @@ extension SelectCardViewController: UICollectionViewDataSource {
         if indexPath.row <= 1 {
             imageName = imageNames[indexPath.row]
         }
-       
+        
         else if indexPath.row % 2 == 0 {
             imageName = imageNames[0]
         }
@@ -53,7 +54,7 @@ extension SelectCardViewController: UICollectionViewDataSource {
             imageName = imageNames[1]
         }
         /* MARK */
-       
+        
         cell.cardImageView.image = UIImage(named: imageName)
         cell.cardNameLabel.text = cardNames[indexPath.row]
         return cell
