@@ -18,6 +18,7 @@
 		2CAEDFD22748EB6400F7DA48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CAEDFD02748EB6400F7DA48 /* LaunchScreen.storyboard */; };
 		2CAEDFDC2748EEF600F7DA48 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAEDFDB2748EEF600F7DA48 /* PersonViewController.swift */; };
 		2CAEDFDF2748F8A500F7DA48 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAEDFDE2748F8A500F7DA48 /* MenuViewController.swift */; };
+		2CAF8D0127641139000FFE05 /* TypeEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAF8D0027641139000FFE05 /* TypeEncoder.swift */; };
 		2CB7958E276175C700C8EF07 /* CardEmission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB7958D276175C600C8EF07 /* CardEmission.swift */; };
 		2CCC3366274FE328005A0711 /* BaseValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC3365274FE328005A0711 /* BaseValidator.swift */; };
 		2CCC3369274FE3A2005A0711 /* ErrorValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCC3368274FE3A2005A0711 /* ErrorValidation.swift */; };
@@ -44,6 +45,7 @@
 		2CAEDFD32748EB6400F7DA48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CAEDFDB2748EEF600F7DA48 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
 		2CAEDFDE2748F8A500F7DA48 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		2CAF8D0027641139000FFE05 /* TypeEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeEncoder.swift; sourceTree = "<group>"; };
 		2CB7958D276175C600C8EF07 /* CardEmission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardEmission.swift; sourceTree = "<group>"; };
 		2CCC3365274FE328005A0711 /* BaseValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseValidator.swift; sourceTree = "<group>"; };
 		2CCC3368274FE3A2005A0711 /* ErrorValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorValidation.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				2CCC336B274FE441005A0711 /* TextField_Extension.swift */,
 				2CAEDFC52748EB5300F7DA48 /* AppDelegate.swift */,
 				911B11E8275537B60089DA52 /* AlignedCollectionViewFlowLayout.swift */,
+				2CAF8D0027641139000FFE05 /* TypeEncoder.swift */,
 			);
 			name = "Support Files";
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CAF8D0127641139000FFE05 /* TypeEncoder.swift in Sources */,
 				2CAEDFCA2748EB5300F7DA48 /* AuthorizationViewController.swift in Sources */,
 				2CCC336C274FE441005A0711 /* TextField_Extension.swift in Sources */,
 				2CCC3376274FEA80005A0711 /* UserData.swift in Sources */,

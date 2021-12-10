@@ -15,7 +15,7 @@ struct APIManager {
 //        "https://hackaton.bankingapi.ru/api/rb/dks/cardops/hackathon/v1/pin/{publicId}?X-MDM-Id=id&Authorization=Bearer{token}&x-client-channel=team27@app.hackaton.bankingapi.ru&X-PARTNER-ID=15522222&publicId=1111111111111&body{pin:hssdsdssss,publicKeyId=1111111111111}"
    
 
-    private func makeRequest(for urlString: String, with method: String, bodyParams: Data) -> String {
+    private func makeRequest(for urlString: String, with method: String, bodyParams: Data) -> URLRequest {
         
         var token: String = ""
         
@@ -25,19 +25,7 @@ struct APIManager {
         request.httpBody = bodyParams
         
         
-        let task = URLSession.shared.dataTask(with: request, completionHandler: { data, response, error -> Void in
-            print(response!)
-            do {
-                let json = try JSONSerialization.jsonObject(with: data!) as! Dictionary<String, AnyObject>
-                print(json)
-            } catch {
-                print("error")
-            }
-        })
-        
-        task.resume()
-        
-        return token
+        return request
     }
     
    func getToken() {
@@ -49,10 +37,25 @@ struct APIManager {
         print(self.makeRequest(for: "https://hackaton.bankingapi.ru/passport/oauth2/token", with: "POST", bodyParams: postData as Data))
     }
 
-   func upload(result: AnyClass) -> AnyClass {
-        
+   func upload(result: TypeEncoder) -> [TypeEncoder] {
+      let request = makeRequest(for: "https://hackaton.bankingapi.ru/api/rb/dks/cardemission/hackathon/v1/prepaid", with: "POST", bodyParams: Data(base64Encoded: "partnerId")!)
     
-   return result
+    let task = URLSession.shared.dataTask(with: request, completionHandler: { data, response, error -> Void in
+       
+        print(response!)
+        do {
+            let answer = try TypeEncoder.encode(result)
+            
+        
+        } catch {
+            print("error")
+        }
+    
+    
+    })
+    
+    task.resume()
+   return [result]
    }
   
 
