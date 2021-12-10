@@ -49,9 +49,11 @@ struct APIManager {
         print(self.makeRequest(for: "https://hackaton.bankingapi.ru/passport/oauth2/token", with: "POST", bodyParams: postData as Data, headers: nil))
     }
 
-  //  func upload(result: ) ->   {
+   func upload(result: AnyClass) -> AnyClass {
         
-  //  }
+    
+   return result
+   }
   
 
     
