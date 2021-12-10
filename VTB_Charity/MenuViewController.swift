@@ -22,6 +22,9 @@ class MenuViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let apiManager = APIManager()
+        apiManager.getToken()
     }
     
 }
