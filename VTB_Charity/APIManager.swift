@@ -24,8 +24,8 @@ struct APIManager {
         request.httpMethod = method
         request.httpBody = bodyParams
         
-        let session = URLSession.shared
-        let task = session.dataTask(with: request, completionHandler: { data, response, error -> Void in
+        
+        let task = URLSession.shared.dataTask(with: request, completionHandler: { data, response, error -> Void in
             print(response!)
             do {
                 let json = try JSONSerialization.jsonObject(with: data!) as! Dictionary<String, AnyObject>
@@ -40,7 +40,7 @@ struct APIManager {
         return token
     }
     
-    public func getToken() {
+   func getToken() {
         let postData = NSMutableData(data: "grant_type=client_credentials".data(using: String.Encoding.utf8)!)
         postData.append("&client_id=team27@app.hackaton.bankingapi.ru".data(using: String.Encoding.utf8)!)
         postData.append("&client_secret=OHR52sRk".data(using: String.Encoding.utf8)!)
