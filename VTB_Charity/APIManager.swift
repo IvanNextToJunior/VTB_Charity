@@ -26,9 +26,11 @@ struct APIManager {
         return request
     }
 
-  //  func upload(result: ) ->   {
+   func upload(result: AnyClass) -> AnyClass {
         
-  //  }
+    
+   return result
+   }
   
 
 }
