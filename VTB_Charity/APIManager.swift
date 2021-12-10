@@ -15,7 +15,7 @@ struct APIManager {
 //        "https://hackaton.bankingapi.ru/api/rb/dks/cardops/hackathon/v1/pin/{publicId}?X-MDM-Id=id&Authorization=Bearer{token}&x-client-channel=team27@app.hackaton.bankingapi.ru&X-PARTNER-ID=15522222&publicId=1111111111111&body{pin:hssdsdssss,publicKeyId=1111111111111}"
    
 
-    private func makeRequest(for urlString: String, with method: String, bodyParams: Data, headers: [String:String]?) -> String {
+    private func makeRequest(for urlString: String, with method: String, bodyParams: Data) -> String {
         
         var token: String = ""
         
@@ -46,7 +46,7 @@ struct APIManager {
         postData.append("&client_secret=OHR52sRk".data(using: String.Encoding.utf8)!)
         
         
-        print(self.makeRequest(for: "https://hackaton.bankingapi.ru/passport/oauth2/token", with: "POST", bodyParams: postData as Data, headers: nil))
+        print(self.makeRequest(for: "https://hackaton.bankingapi.ru/passport/oauth2/token", with: "POST", bodyParams: postData as Data))
     }
 
    func upload(result: AnyClass) -> AnyClass {
