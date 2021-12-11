@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tv5-cf-Eei">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tv5-cf-Eei">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -99,7 +98,7 @@
                         <outlet property="middleNameTextField" destination="oKy-zT-0dK" id="rsn-o1-FHq"/>
                         <outlet property="nameTextField" destination="t9x-da-6Gj" id="WKU-Wx-faJ"/>
                         <outlet property="passwordTextField" destination="fOt-J9-cvI" id="Cp2-44-MdK"/>
-                        <segue destination="X0E-rS-unv" kind="show" identifier="registration" id="w94-gS-kNb"/>
+                        <segue destination="X0E-rS-unv" kind="show" identifier="menu" id="w94-gS-kNb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -254,11 +253,28 @@
                     <navigationItem key="navigationItem" title="Выберите карту" id="VyA-Kk-PaG"/>
                     <connections>
                         <outlet property="selectCardCollectionView" destination="wHF-mj-6Ux" id="Gjh-e2-kP7"/>
+                        <segue destination="gCM-wt-ADx" kind="show" identifier="appliction" id="EDp-Li-CF3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z4Y-3n-Qx5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2245" y="80"/>
+        </scene>
+        <!--Card Application View Controller-->
+        <scene sceneID="cfl-yA-Kzo">
+            <objects>
+                <viewController id="gCM-wt-ADx" customClass="CardApplicationViewController" customModule="VTB_Charity" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aTy-pv-nUb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="5dK-qV-xhy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lHb-W2-edI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4ne-KE-g3G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3032" y="80"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="na3-UT-GNm">
