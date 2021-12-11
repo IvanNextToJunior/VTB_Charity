@@ -7,17 +7,22 @@
 
 import UIKit
 
+protocol CardApplicationViewControllerDelegate: class {
+    func cardApplicationViewControllerDidShow(vc: CardApplicationViewController)
+}
+
+
 class CardApplicationViewController: UIViewController {
     
     @IBOutlet weak var cardNameLabel: UILabel!
     
-    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak private var nameTextField: UITextField!
     
-    @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak private var passwordTextField: UITextField!
     
-    @IBOutlet weak var pinTextField: UITextField!
+    @IBOutlet weak private var pinTextField: UITextField!
     
-    @IBOutlet weak var repeatPinTextField: UITextField!
+    @IBOutlet weak private var repeatPinTextField: UITextField!
     
    
     override func viewDidLoad() {
